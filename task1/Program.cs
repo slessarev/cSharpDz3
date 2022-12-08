@@ -18,7 +18,7 @@ void CheckNumber(string number)
 //Тут я решил усложнить задачу - и после проверки спросить пользователя хочет ли он проверить еще одно число.
 
 string continueReason = "y"; //Я хотел использовать не string, а char, но пока не разобрался как работать с этим типом.
-while(continueReason == "y")
+while (continueReason == "y")
 {
     Console.Clear();
     string number = InputData("Введите пятизначное число");
