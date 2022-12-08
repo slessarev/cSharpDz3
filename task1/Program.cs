@@ -17,6 +17,7 @@ void CheckNumber(string number)
 
 //Тут я решил усложнить задачу - и после проверки спросить пользователя хочет ли он проверить еще одно число.
 
+Console.Clear();
 string continueReason = "y"; //Я хотел использовать не string, а char, но пока не разобрался как работать с этим типом.
 while (continueReason == "y")
 {

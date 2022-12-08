@@ -9,6 +9,7 @@ int InputPoint(string dot, string position)
     int num = int.Parse(Console.ReadLine());
     return num;
 }
+Console.Clear();
 int ax = InputPoint("X", "первой");
 int ay = InputPoint("Y", "первой");
 int az = InputPoint("Z", "первой");
